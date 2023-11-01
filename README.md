@@ -46,7 +46,7 @@ Read through these two resources before posting issues to GitHub or the forums.
 
 HACS: 
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=xZetsubou&repository=upcoming-media-card&category=frontend)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=xZetsubou&repository=upcoming-media-card&category=plugin)
 
 Manual:
 
