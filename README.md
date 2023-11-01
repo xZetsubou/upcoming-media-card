@@ -1,10 +1,11 @@
 # Upcoming-Media-Card
-
+The style is inspired from [@nfs](https://community.home-assistant.io/t/lovelace-upcoming-media-card/66562/752?u=umu_ugg)
 | Poster View | Fan Art View
 | ---- | ---- 
-| <img src="https://imgur.com/gKHbplv.jpg" alt="Screenshot 1" width="250"> | <img src="https://i.imgur.com/noB7Hub.jpg" alt="Screenshot 1" width="250"> 
+| <img src="https://github.com/xZetsubou/upcoming-media-card/assets/46300268/b4340ef0-804d-49ce-8190-6e7ef6d53ecb" alt="Screenshot 1" height="400"> | <img src="https://github.com/xZetsubou/upcoming-media-card/assets/46300268/78c5a9d1-1459-4747-9c58-be1cae6ccbe7" alt="Screenshot 1" height="400"> 
 
 <br/>
+
 
 **Requires a custom-component:**<br/>
 This card will only work if you've installed one of the custom-component's below to feed it.
