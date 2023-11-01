@@ -1,13 +1,17 @@
 # Upcoming-Media-Card
-
+The style is inspired from [@nfs](https://community.home-assistant.io/t/lovelace-upcoming-media-card/66562/752?u=umu_ugg)
 | Poster View | Fan Art View
 | ---- | ---- 
-| <img src="https://imgur.com/gKHbplv.jpg" alt="Screenshot 1" width="250"> | <img src="https://i.imgur.com/noB7Hub.jpg" alt="Screenshot 1" width="250"> 
+| <img src="https://github.com/xZetsubou/upcoming-media-card/assets/46300268/30fddca8-be9a-4d7c-941c-dd3996909528" alt="Screenshot 1" height="400"> | <img src="https://github.com/xZetsubou/upcoming-media-card/assets/46300268/9e3b2c31-763e-46b3-bbfe-932c8d40eb7b" alt="Screenshot 1" height="400"> 
 
 <br/>
 
+
+
+
 **Requires a custom-component:**<br/>
 This card will only work if you've installed one of the custom-component's below to feed it.
+
 
 ### Current custom-components for this card:
 
@@ -29,12 +33,6 @@ Read through these two resources before posting issues to GitHub or the forums.
 * [@thomasloven's lovelace guide](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
 
 
-## Supporting Development
-- :coffee:&nbsp;&nbsp;[Buy me a coffee](https://www.buymeacoffee.com/FgwNR2l)
-- :1st_place_medal:&nbsp;&nbsp;[Tip some Crypto](https://github.com/sponsors/maykar)
-- :heart:&nbsp;&nbsp;[Sponsor me on GitHub](https://github.com/sponsors/maykar)
-  <br><br>
-
 ## Features:
 * Poster and Fan Art views
 * All text can have its contents, color, and size customized.
@@ -45,6 +43,12 @@ Read through these two resources before posting issues to GitHub or the forums.
 * Uses responsive design to scale elegantly 
 
 ## Installation:
+
+HACS: 
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=xZetsubou&repository=upcoming-media-card&category=frontend)
+
+Manual:
 
 * Install the custom component by following it's instructions.
 * Install this card by copying `upcoming-media-card.js` to your `www/custom-lovelace/` folder. If you're copy/pasting the code always copy from raw files on github (button on top right when viewing code).
