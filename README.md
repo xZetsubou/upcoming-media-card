@@ -116,6 +116,8 @@ This card has many customization options, but none are required to use the card.
 |flag_color|var(--primary-color)|var(--primary-color)|Changes the color of indicator flag.|
 |icon|Default set by component|Default set by component|Changes the icon in the indicator flag, uses mdi icons. <code>**"icon: mdi:arrow-down"**</code></br>Set <code>**"icon: none**"</code> to hide.|
 |icon_color|var(--primary-color)|var(--primary-color)|Changes the color of the icon in the indicator flag.|
+|gridCols|4|3|Changes the number of grid columns.|
+
 <br/>
 
 Text color options can be any valid CSS value. This includes color names like <code>red</code>, rgb values like <code>rgba(255, 0, 0, 0.6)</code>, variable names for HA like <code>var(--primary-color)</code>, hex values like <code>'#ff6347'</code>, you can even use <code>transparent</code>. If using hex values, encase in quotes. This is the only time quotes are required in the cards configuration.

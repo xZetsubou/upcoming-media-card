@@ -8,7 +8,6 @@ class UpcomingMediaCard extends HTMLElement {
       this.content.style.minWidth = "700px"
       this.content.style.display = "grid";
       this.content.style.padding = "0px";
-      this.content.style.gridTemplateColumns = "auto auto auto auto";
       card.appendChild(this.content);
       this.appendChild(card);
     }
@@ -22,7 +21,8 @@ class UpcomingMediaCard extends HTMLElement {
     if (!json || !json[1] || this.prev_json == JSON.stringify(json)) return;
     this.prev_json = JSON.stringify(json);
     const view = this.config.image_style || "poster";
-    this.content.style.gridTemplateColumns = view == "poster" ? "auto auto auto auto" : "auto auto auto";
+    const gridCols = this.config.gridCols ;
+    this.content.style.gridTemplateColumns = gridCols ? `repeat(${gridCols}, 1fr)` : view == "poster" ? "repeat(4, 1fr)" : "repeat(3, 1fr)"
     const dateform = this.config.date || "mmdd";
     const icon = this.config.icon || json[0]["icon"];
     const icon_hide = this.config.icon == "none" ? "display:none;" : "";
