@@ -128,7 +128,7 @@ class UpcomingMediaCard extends HTMLElement {
           position: absolute;
           bottom: 0px;
           left: 0px;
-          width: 100%;
+          width: 105%;
           background-color: rgba(44, 45, 45, 0.65);
           backdrop-filter: blur(1.5px);
           -webkit-backdrop-filter: blur(1.5px);
